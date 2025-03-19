@@ -1,0 +1,50 @@
+.home-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #000000e6;
+  background: #f3f2f0;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.header {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.home-section-text {
+  width: 100%;
+  align-self: self-start;
+}
+
+.buttons-container {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .home-section\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  .home-section-text {
+    width: 430px;
+    margin-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .buttons-container {
+    width: 630px;
+  }
+}
