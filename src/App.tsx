@@ -208,7 +208,20 @@ function App() {
         </ul>
       </HomeSection>
 
-      <Carousel data={slides} />
+      <div
+        id="carousel-container"
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "20px",
+          height: "450px",
+          marginTop: "0",
+        }}
+      >
+        <Carousel data={slides} />
+      </div>
     </>
   );
 }

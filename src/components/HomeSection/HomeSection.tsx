@@ -1,6 +1,19 @@
 import "./HomeSection.css";
+import { ReactNode } from "react";
 
-export default function HomeSection({ id, header, subHeader, children }) {
+interface HomeSectionProps {
+  id: string;
+  header: string;
+  subHeader: string;
+  children: ReactNode;
+}
+
+export default function HomeSection({
+  id,
+  header,
+  subHeader,
+  children,
+}: HomeSectionProps) {
   return (
     <section
       id={id}
