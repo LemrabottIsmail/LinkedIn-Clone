@@ -1,0 +1,174 @@
+.sign-in-container {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.linkedin-logo {
+  height: 34px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.join-now {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  background: transparent;
+  cursor: pointer;
+}
+
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.sign-in {
+  padding: 12px 24px;
+  border: 1px solid #0a66c2;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0a66c2;
+  background: transparent;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: rgba(112, 181, 249, 0.04);
+  border: 2px solid #0a66c2;
+}
+
+.main-content {
+  display: flex;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 40px 3rem;
+  gap: 2rem;
+}
+
+.left-section {
+  flex: 1;
+  min-width: 55%;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-image {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 56px;
+  color: #8f5849;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.sign-in-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+}
+
+.google-sign-in,
+.microsoft-sign-in {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 12px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  background: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.google-sign-in img,
+.microsoft-sign-in img {
+  width: 20px;
+  height: 20px;
+}
+
+.email-sign-in {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 12px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 28px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  background: white;
+  cursor: pointer;
+}
+
+.email-sign-in img {
+  width: 20px;
+  height: 20px;
+}
+
+.email-sign-in span {
+  display: block;
+}
+
+.email {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.terms {
+  margin-top: 24px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.terms a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.new-to-linkedin {
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.new-to-linkedin a {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.new-to-linkedin a:hover {
+  text-decoration: underline;
+}

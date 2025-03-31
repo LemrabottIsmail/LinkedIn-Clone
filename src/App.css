@@ -1,52 +1,54 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-html,
 body {
-  margin: 0;
-  height: 100%;
+  background-color: #f3f2ef;
+  color: rgba(0, 0, 0, 0.9);
+  overflow-y: scroll;
 }
 
-.btn-md {
-  height: min-content;
-  min-height: 30px;
-  border-radius: 36px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  display: flex;
-  width: fit-content;
-  align-items: center;
-  float: left;
-  margin-right: 8px;
-  margin-bottom: 12px;
-}
-
-.btn-md,
-.btn-md:visited,
-.btn-md:focus,
-.btn-md:hover {
-  cursor: pointer;
-  text-decoration-line: none;
-  background-color: darkgray; /* Darker blue on hover */
-}
-
-.btn-secondary,
-.btn-secondary:visited,
-.btn-secondary:focus {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75);
-  background-color: rgba(0, 0, 0, 0);
-  color: rgba(0, 0, 0, 0.75);
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
   list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+}
+
+.btn-md {
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.9);
+  border-color: rgba(0, 0, 0, 0.9);
 }
